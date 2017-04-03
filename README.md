@@ -26,3 +26,18 @@ lightFadeSlider is a simple fade slider
 	<div style="background-image: url('image-3.jpg');"></div>
 </div>
 ```
+### Call lightFadeSlider
+default values:
+```
+pause:	5000,
+speed: 	1500,
+height:	650,
+fullHeight: false
+```
+```
+<script>
+	$(function(){
+		$('#selector').lightFadeSlider();
+	});
+</script>
+```
